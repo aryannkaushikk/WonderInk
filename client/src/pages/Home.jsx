@@ -78,11 +78,16 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-12">
-        <div className="w-72 h-72 bg-purple-200 rounded-2xl shadow-inner flex items-center justify-center">
-          <span className="text-purple-600 font-semibold text-lg">📝 Your Blog</span>
-        </div>
-      </div>
+      <div className="mt-12 flex justify-center">
+  <div className="w-72 h-72 bg-purple-200 rounded-2xl shadow-inner overflow-hidden">
+    <img
+      src="logo-removebg.png"
+      alt="Hero Illustration"
+      className="w-full h-full object-cover"
+    />
+  </div>
+</div>
+
     </div>
   );
 }
